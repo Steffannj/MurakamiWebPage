@@ -1,0 +1,177 @@
+body{
+	background-image: url("img/60858954-luxury-old-dark-white-leather-texture-background-with-gradients-light-for-backdrop-high-resolution.jpg");
+}
+a{
+	text-decoration: none;
+}
+hr{ 
+  height: 30px; 
+  border-style: solid; 
+  border-color: white; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+.right hr{
+  height: 1px; 
+  border-style: solid; 
+  border-color: white; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+}
+.hm{
+	color: black;
+	text-decoration: none;
+	font-family: cursive, sans-serif;
+	text-align: center;
+	padding:15px;
+    text-shadow: 5px 5px 5px grey;
+}
+.left{
+	float: left;
+	width: 20%;
+}
+.left img{
+	padding-top: 30px;
+	width: 100%;
+}
+.left p{
+	color: white;
+	font-size: 17px;
+	font-style: italic;
+	background-color: black;
+	text-align: center;
+}
+.button{
+	float: left;
+	width: 20%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: cursive, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    transition-duration: 0.6s; 
+}
+
+.button:hover{
+    color: white;
+    background-color: darkgrey;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.main{
+	width: 60%;
+	float: left;
+	display:flex;
+  	align-items:center;
+	justify-content:center;
+}
+.main img{
+	width: 100%;
+	left: 9%;
+	right: 9%;
+    max-height: 620px;
+    max-width: 800px;
+}
+
+.right{
+	float: left;
+	background-color: #e5e5e5;
+	width: 20%;
+	text-align: center;
+	font-family: cursive, sans-serif;
+	font-style: italic;
+}
+.right p {
+	padding: 5px;
+}
+.biografija{
+	width: 60%;
+	float: left;
+}
+.biografija h1{
+	background-color: grey;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+.biografija p{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	line-height: 150%;
+	text-align: justify;
+}
+.djela{
+	width: 60%;
+	float: left;
+	font-size: 16px;
+}
+.djela h1{
+	text-align: center;
+	background-color: grey;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.djela p{
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.djela p a{
+	color: black;
+	text-decoration: none;
+}
+.djela img{
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+}
+.djela h3{
+	color: #000000;
+	float: left;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: italic;
+}
+h3:hover{
+	color: #222229;
+}
+.linkoviDjela{
+	display: inline-block;
+}
+.uputstvoText{
+	width: 59%;
+	margin-right: 5px;
+	float: left;
+	font-size: 18px;
+    line-height: 23px;
+	background-image: linear-gradient(white, grey);
+	margin-left: 5px;
+}
+.uputstvoText h1{
+	text-align: center;
+	background-color: grey;
+	line-height: 100%;
+	border-radius: 20px;
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.uputstvoText p{
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .left, .main, .right, .biografija, .djela, .uputstvoText{
+    width:100%;
+  }  
+}
